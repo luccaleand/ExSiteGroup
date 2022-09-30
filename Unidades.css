@@ -1,0 +1,46 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 100px;
+	background: rgb(0, 45, 114);
+	background: linear-gradient(0deg, rgba(0, 45, 114, 1) 21%, rgba(237, 139, 0, 1) 52%, rgba(253, 192, 128, 1) 100%);
+}
+.fundo {
+	width: 50%;
+	height: 400px;
+	border: solid;
+	justify-content: center;
+	background-color: gainsboro;
+}
+p {
+	font-size: 200%;
+}
+.imagem {
+	display: flex;
+	justify-content: center;
+}
+.imagem img {
+	margin:0 20px;
+	
+}
+#menu {
+	width: auto;
+	height: 50px;
+	margin: 1%;
+	display: flex;
+	justify-content: center;
+	background-color: rgb(22, 21, 21);
+}
+#menu a {
+	margin: 10px;
+	font-size: 30px;
+	color: dodgerblue;
+	text-decoration: none;
+}	
+#menu a:hover {
+	margin: 0 20px;
+	text-decoration: none;
+	color: blue;
+}

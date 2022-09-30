@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu {
+	width: auto;
+	height: 50px;
+	background-color: rgb(22, 21, 21);
+}
+#menu a {
+	margin: 10px;
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+#menu a:hover {
+	margin: 0 20px;
+	text-decoration: none;
+	color: dodgerblue;
+
+}
+p {
+	font-size: 20px;
+	color: white;
+}
+li {
+	font-size: 20px;
+	color: white;
+}
+body {
+	background-color: black;
+}
+h1 {
+	font-size: 50px;
+	color: white;
+}
+#home {
+	font-size: 30px;
+	text-align: center;
+	padding: inherit;
+}
